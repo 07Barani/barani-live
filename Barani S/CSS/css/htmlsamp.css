@@ -1,0 +1,26 @@
+
+h1{
+ text-align:center;
+color:red;
+background-color:rgba(140,140,140,0.2)
+}
+body{
+background-image:url(../image/pexels-pixabay-257360.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+padding:5%;
+font-weight:bold;
+
+}
+
+
+form{background-color:rgba(170,170,170,0.3);}
+table{background-color:rgba(170,110,170,0.3);}
+ul{background-color:rgba(170,170,110,0.3);}
+h2{background-color:rgba(170,170,80,0.3);}
+h3{background-color:rgba(80,170,80,0.3);}
+#bb{font-family:algerian;
+    color:red;
+word-spacing:0.2rem;
+letter-spacing:0.2rem;
+}

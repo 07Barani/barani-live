@@ -1,0 +1,35 @@
+<html><head><title>Day 6(Sample)</title></head>
+
+<body>
+<h1>FRUIT</h1>
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+<h2>Nutritious</h2>
+<ol type="A">
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+
+</ol>
+<dl><dt>Apple fruit benefits</dt>
+<dd></dd>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

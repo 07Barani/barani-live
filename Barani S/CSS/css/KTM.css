@@ -1,0 +1,117 @@
+*{margin: 0%;
+padding:0%;
+width:fit-content;
+}
+
+
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    font-size: 1.3rem;
+    position: relative;
+    background-repeat:no-repeat;
+    border-bottom: 3px solid rgba(255,102,0,1);
+    background-image:url("//s7g10.scene7.com/is/image/ktm/MY25-KTM-990-DUKE-R-HEADER-2?wid=1400&dpr=off");
+    height:800px;
+    width:145%;
+}
+.text{
+    display: flex;
+    position:relative;
+    top:30px;
+    color: aliceblue;
+}  
+
+h1{
+    position: relative;
+    bottom:350px;
+    left: 330px;
+    color:whitesmoke;
+    width:800px;
+    font-size:4rem;
+}
+h4{
+    position: relative;
+    bottom:370px;
+    left:600px;
+    font-size:2rem;
+    color:whitesmoke
+}
+.end{
+display:flex;
+justify-content: space-evenly;
+position: relative;
+bottom:111px;
+background-color:black;
+color: whitesmoke;
+width:145%;
+height:100px;
+}
+.end>div{
+position:relative;
+top:30%;
+
+}
+.end>div:hover{
+
+    color:rgba(255,102,0,1);
+    font-size:1.1rem;
+}
+h1:hover{
+color:rgba(255,102,0,1);
+}
+@media only screen and (max-width:610px) {
+    .end{
+        display:grid;
+        grid-template-rows:50px 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr;
+        position:relative;
+        bottom:74px;
+        width:600px;
+        height:fit-content;
+        
+    
+        color:greenyellow;
+   }
+  ul{ 
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:50px 50px 60px;
+   font-size: 1.3rem;
+   position: relative;
+   
+
+   border-bottom: 3px solid rgba(255,102,0,1);
+   width:600px;
+   background-image:url("//s7g10.scene7.com/is/image/ktm/MY25-KTM-990-DUKE-R-HEADER-2?wid=1400&dpr=off");
+   background-position-x:50%;
+   
+  }
+  h4,h1{
+    left:60px;
+    font-size:2rem;
+ }
+  h4{
+    text-shadow:1px 2px 1px rgba(255,102,0,1);
+    animation:barani 0.1s infinite;
+    transform-style: preserve-3d;
+ }
+ @keyframes barani{ 50%{transform: rotate(deg);}
+    
+ }
+ .text{
+     border-bottom:3px solid rgba(232, 108, 7, 0.652);
+     height:25px;
+     letter-spacing:.2rem;
+            }
+ .img1{
+    margin-top:25px;
+ }
+ .text:hover{
+    background-color:orangered;
+    font-size:1.2rem;
+    box-shadow:1px 5px 6px black;
+
+ }
+  }

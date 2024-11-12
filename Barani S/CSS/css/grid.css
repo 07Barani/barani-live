@@ -1,0 +1,127 @@
+#group{
+display:grid;
+grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+ grid-template-areas: 
+        "h12 h12 h12 h12 h12 h12"
+        "main main main main main main";
+      
+border:1px solid black;
+grid-gap:10px;
+background-color:rgba(255,215,125,1);
+padding:10px;
+height:395px;
+margin-top:225px;
+
+}
+#group>div{
+
+border-radius:8px;
+background-color:white;
+height:310px;
+margin-top:2px;
+
+}
+.box{
+width:240px;
+height:230px;
+margin-left:10px;
+margin-top:2px;
+
+}
+mark{
+margin-left:10px;
+
+}
+a{
+text-decoration:none;
+color:black;
+
+}
+#item1{
+ grid-area: h12; 
+width:500px;
+}
+
+h1{text-align:center;
+background-color:burlywood;
+position: sticky;
+top:0;
+left:0%;
+}
+#sub1{
+display: grid;
+grid-template-columns:1fr 1fr;
+grid-template-rows:10px 100px;
+grid-template-areas:
+"f1 f1"
+"c1 c1";
+
+width:400px;
+height:500px;
+align-content:space-around;
+border: 2px solid red;
+grid-gap:5px;
+justify-items:center;
+
+}
+.pic1{
+ 
+        width:auto;
+        height: 150px;
+        align-content: center;
+        justify-items:center;
+        
+
+}
+h3{
+        grid-area:f1;
+      margin:0px;
+
+}
+@media screen and (min-width: 425px) {
+#group{display:grid;
+        grid-template-columns:1fr 1fr;
+         grid-template-areas: 
+                "h12 h12 "
+                "main main";
+              
+        border:1px solid black;
+        grid-gap:10px;
+        background-color:rgba(255,215,125,1);
+        padding:10px;
+        height:1110px;
+        margin-top:225px;
+        }        
+}
+@media screen and (min-width: 700px) {
+#group{display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+         grid-template-areas: 
+                "h12 h12 h12"
+                "main main main";
+              
+        border:1px solid black;
+        grid-gap:10px;
+        background-color:rgba(255,215,125,1);
+        padding:10px;
+        height:720px;
+        margin-top:225px;
+        }        
+}
+@media screen and (min-width: 1000px) {
+        #group{display:grid;
+                grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+                 grid-template-areas: 
+                        "h12 h12 h12 h12 h12 h12"
+                        "main main main main main main";
+                      
+                border:1px solid black;
+                grid-gap:10px;
+                background-color:rgba(255,215,125,1);
+                padding:10px;
+                height:395px;
+                margin-top:225px;
+                
+                }        
+        }
+

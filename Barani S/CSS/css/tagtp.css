@@ -1,0 +1,52 @@
+body{
+background-image:url("../image/images (1).png");
+background-repeat:repeat-x;
+background-size:250px;
+;
+
+}
+table,th,td{
+border:2px solid red;
+border-collapse:collapse;
+margin-left:500px;
+margin-top:100px;
+box-shadow:4px 5px 5px gray; 
+}
+td:nth-child(3){background-color:rgb(120,120,120);}
+tr:nth-child(2){background-color:rgb(120,120,120);}
+tr:hover{background-color:rgb(180,180,180); font-family:tharan;font-size:2rem;}
+tr{cursor:default;}
+
+
+
+div{
+margin-left:540px;
+margin-top:150px;
+font-family:tn;
+font-size:8rem;
+text-shadow:3px 6px 5px gray;
+}
+
+@font-face{
+font-family:tn;
+src:url(../Fonts/HelpMe.TTF)}
+
+a{text-decoration:none;
+    color:black;
+    cursor:text;
+
+}
+a:hover{color:red;}
+
+@font-face{
+font-family:tharan;
+src:url(../Fonts/Hellbone.otf)
+}
+
+li{list-style-image:url("../image/download (1).png");  margin-left:570px;font-weight:bold;}
+
+
+}
+
+
+

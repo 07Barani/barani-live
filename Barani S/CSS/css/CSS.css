@@ -1,0 +1,117 @@
+
+body{
+background-image:url("../image/957110eac8de4e1736f00df5636b0a4f.jpg");
+background-repeat:no-repeat ;
+background-size:cover;
+padding:3%;
+font-size:1rem;
+}
+
+p{
+text-indent:1.5rem;
+line-height:1.5rem;
+word-spacing:0.2rem;
+letter-spacing:.1rem;
+font-weight:bold;
+background-color:orange;
+text-align:center;
+}
+#f1{
+background:red;
+animation:barani 1s infinite;
+position:relative;
+letter-spacing:.2rem;
+}
+@keyframes barani{
+from{left:0px;color:black}
+to{right:3px;color:white;}
+}
+h1{
+text-align:center;
+width:150px;
+height:40px;
+background:green;
+position:relative;
+animation:mymove 2s infinite;
+animation-play-state:running;
+}
+h1:hover{
+animation-play-state:paused;
+}
+@keyframes mymove{
+from{left:0px;background-color:red;color:black;}
+to{left:500px; background-color:Black;color:white;}
+}
+.s1{
+cursor:pointer;
+}
+.s2{
+color:rgba(255,100,210,9);
+cursor:help;
+}
+@font-face{
+font-family: Barani;
+src:url(../Fonts/BilladySaviorDemo.TTF);
+}
+p{
+font-family:Barani;
+font-size:4rem;
+}
+@font-face{
+font-family:bb;
+src:url(../Fonts/BillyArgelFont.ttf);
+}
+ol{
+font-family:bb;
+font-size:3.5rem;
+color:rgb(120,120,120);
+}
+#bb1{
+margin-left:600px;
+
+}
+ul{
+font-family:bb;
+font-size:4.2rem;
+margin-left:550px;
+}
+#g1{
+color:rgb(100,100,70);
+}
+#g2{
+color:rgb(150,50,70);
+}
+.s1:hover{
+text-shadow:3px 1px 3px red;
+}
+#s2:hover{
+text-shadow:3px 1px 3px green;
+cursor:pointer;
+}
+#s3:hover{
+text-shadow:3px 1px 3px blue;
+cursor:pointer;
+}
+@font-face{
+font-family:tn;
+src:url(../Fonts/HelpMe.TTF);
+}
+summary{
+font-family:tn;
+margin-left:185px;
+font-size:5rem;
+color:rgb(100,40,40);
+text-shadow:10px 10px 5px grey;
+}
+a{
+ text-decoration:none;
+}
+#ch1{
+color:red; 
+}
+
+a:active{color:orange;}
+a:visited{color:rgb(80,80,80);}
+a:focus{
+                color: orange;
+            }
