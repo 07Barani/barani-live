@@ -1,0 +1,267 @@
+*{margin: 0%;
+    padding:0%;
+    width:fit-content;
+    }
+body{
+    background-image:url("//s7g10.scene7.com/is/image/ktm/MY25-KTM-990-DUKE-R-HEADER-2?wid=1400&dpr=off");
+    background-size:190%;
+    background-repeat:no-repeat;
+    
+}
+ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    font-size: 1.2rem;
+    position: relative;
+    width:150%;
+
+
+}
+video{position: relative;
+    top:319px;
+}
+.img1{position:relative;
+     left:155%;
+     top:0px;
+}
+.text{
+    display: flex;
+    position:relative;
+    top:30px;
+    color: aliceblue;
+}  
+.text:hover{
+    color:orangered;
+    font-size:1rem;
+    text-shadow:1px 5px 6px black;
+
+ }
+h1{
+    position: relative;
+    
+    color:whitesmoke;
+    width:fit-content;
+    font-size:4rem;
+}
+h4{
+    position: relative;
+    font-size:2rem;
+    color:whitesmoke;
+       
+}
+.emoji{
+    color:orangered;
+    font-size:3rem;
+    animation:barani 0.3s infinite;
+    transform-style: preserve-3d;
+  }
+  .flip-card {
+    background-color: transparent;
+    width:500px;
+    height: 300px;
+    position: relative;
+    left:100%;
+    bottom:40px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow:5px 5px 5px rgba(255,102,0,1);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+  
+    transform: rotateY(180deg);
+  }
+
+@keyframes barani{0%{opacity:0;}
+
+ }
+ .d5{
+    animation:duke 3s ease-in;
+    color:orangered;
+    animation-iteration-count:infinite;
+    position:absolute;
+    animation-timing-function:cubic-bezier(0.895, 0.03, 0.685, 0.22);
+
+}
+ @keyframes duke{100%{opacity:0;}
+                0%{opacity:1;}
+            0%{color:orangered}                                 
+            0%{transform:scale(1);}
+         100%{transform: scale(10);}
+          
+}
+
+
+
+.end{
+display:flex;
+justify-content: space-evenly;
+position: relative;
+top:245px;
+background-color:black;
+color: whitesmoke;
+width:220%;
+height:70px;
+top:318px;
+border-top: 5px solid rgba(255,102,0,1);
+}
+.end>div{
+position:relative;
+top:30%;
+}
+.ktm1{position: relative;
+    right:100px;}
+.end>div:hover{
+
+    color:rgba(255,102,0,1);
+    font-size:1.1rem;
+}
+h1:hover{
+color:rgba(255,102,0,1);
+}
+.d2025{
+    left:15%;
+}
+.k1{left:18%;}
+.k2{left:18%;}
+.k3{left:18%;}
+.k990{left:15%;}
+.duke{left:7%;}
+.dropdown-content{ display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top:50px;}
+    .dropdown-content li {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;}
+    .dropdown-content li:hover {background-color: orangered;
+    cursor: pointer;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover span {
+       color:rgba(232, 108, 7, 0.652);
+      }
+      @font-face {
+        font-family: wings;
+        src: url("../Fonts/Kuramo-5p1B.ttf");
+     }
+     h4{
+        font-family:wings;
+        font-size:2.8rem;
+     }
+
+     /*mobile screen code*/
+@media only screen and (max-width:610px) {
+    .end{
+        display:grid;
+        grid-template-rows:50px 1fr 1fr;
+        grid-template-columns:1fr 1fr 1fr;
+        position:relative;
+        top:85px;
+        width:600px;
+        height:fit-content;
+        
+    
+        color:greenyellow;
+   }
+  ul{ 
+    display:grid;
+    grid-template-columns:1fr 220px 1fr;
+    grid-template-rows:50px 60px 60px;
+    font-size: 1.3rem;
+    position: relative;
+     width:600px;  
+   }
+body{
+    background-position:-200px 0px;
+    background-size:cover;
+
+}
+  
+  .img1{position:relative;
+    left:70%;
+    top:-50px;
+
+}
+  h4,h1{
+    left:60px;
+    font-size:2rem;
+ }
+ h1{position: relative;
+    top:10px;
+    font-size:rem;}
+    .k1,.d2025,.k2,.k3,.k990,.duke{
+        left:20px;
+        top:-80px;
+        width:fit-content;
+    }
+
+  h4{
+
+    top:-40px;
+    left:90px;
+    rotate:-55deg;
+    font-size:1.8rem;
+    animation:barani 0.5s infinite;
+    transform-style: preserve-3d;
+}
+.duke{
+    animation:duke 4s infinite reverse;
+}
+
+
+
+          /*animation*/
+ @keyframes barani{ 50%{transform: rotate(2deg);}
+                    0%{opacity:0;}
+ }
+ .text{
+     border-bottom:3px solid rgba(232, 108, 7, 0.652);
+     height:25px;
+     letter-spacing:.2rem;
+            }
+ 
+ .text:hover{
+    background-color:orangered;
+    font-size:1.2rem;
+    color:whitesmoke;
+    box-shadow:1px 5px 6px black;
+            }
+}
+
